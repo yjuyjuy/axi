@@ -433,8 +433,7 @@ community:
         - "mem add refuses credential-like title or body content unless --force is supplied, while dedup is dry-run by default and search/list rank results by priority and freshness with --limit and --min-priority controls; sync bounds pull and push operations with a 30-second timeout."
 
   - name: mattermost-axi
-    # TODO: replace with the final URL once the repo lands on the company GitLab (tooling/mattermost-axi, migration ticket 19).
-    url: https://github.com/yjuyjuy/mattermost-axi
+    url: https://gitlab.com/hyfin-group/tooling/mattermost-axi
     author: yjuyjuy
     domain: Mattermost
     description: "Read threads and attachments, search posts, and reply in threads with token-efficient TOON output and --json contracts; credentials from MM_TOKEN and MM_SERVER_URL only."
